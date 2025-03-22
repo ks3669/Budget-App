@@ -61,7 +61,7 @@ const LoginForm = () => {
         Please enter your details to log in
       </p>
       <p className="text-xs text-red-500 mb-6">
-        Please wait for about 1 minute if you are getting errors. My backend will take 1 minute to boot up if it gets queried. (Free tier sucks!!!!.....)
+        If nothing happened after you clicked Login, Please wait for about 1 minute if you are getting errors. My backend will take 1 minute to boot up if it gets queried. (Free tier sucks!!!!.....)
       </p>
         <form onSubmit={handleLogin}>
           <Input
