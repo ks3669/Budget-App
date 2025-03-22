@@ -88,6 +88,7 @@ const SignUpForm = () => {
           <ProfilePhotoSelector image={profilePic} setImage={setProfilePic} />
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+            <div className="w-full">
             <Input
               value={fullName}
               onChange={({ target }) => setFullName(target.value)}
@@ -95,7 +96,9 @@ const SignUpForm = () => {
               placeholder="Karthik"
               type="text"
             />
+              </div>
 
+            <div className="w-full">
             <Input
               value={email}
               onChange={({ target }) => setEmail(target.value)}
@@ -103,6 +106,7 @@ const SignUpForm = () => {
               placeholder="karthik@example.com"
               type="text"
             />
+            </div>
 
             <div className="col-span-2">
               <Input
